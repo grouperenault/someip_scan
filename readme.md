@@ -10,7 +10,7 @@ laurent.clevy-extern@ampere.cars
 - Scapy 2.6.1
 - Python 3.10
 
-Tested under Unbuntu 22.04
+Tested under Ubuntu 22.04
 
 You need to have your computer connected to the ECU with the proper network configuration : sometimes custom source MAC address, specific VLAN ID and IP network.
 
@@ -210,5 +210,5 @@ SD services and scanned services sets are identical.
 ## TODO / Ideas
 
 - UDP scans
-- fake SD with a lost of services offered to catch clients
+- fake Service Discovery with a lot of services offered, to catch clients
 - detect Subscribe / Event type services
